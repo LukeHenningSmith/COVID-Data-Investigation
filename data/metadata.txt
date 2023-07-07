@@ -1,0 +1,18 @@
+Data provenance:
+https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset
+https://www.kaggle.com/datasets/kaggle/world-development-indicators
+
+License: CC BY-SA 3.0 (public usage allowed with accreditation)
+
+The process of data cleaning can be seen in the 'Stage 2 490386774.ipynb' file in the .zip code folder.
+
+Data schema (After cleaning data):
+  Attribute - Data type - Description
+  Country - Nominal - The country the following attributes are for.
+  Obesity - Numeric - Percentage of total country population that is obese.
+  Undernourished - Numeric - Percentage of total country population that is undernourished.
+  Confirmed - Numeric - Confirmed COVID-19 cases as a percentage of the total country population.
+  Deaths - Numeric - Deaths to COVID-19 as a percentage of the total country population.
+  Recovered - Numeric - Number of people recovered from COVID-19 as a percentage of the total country population.
+  Population - Numeric - The population of the country.
+  Income group - Nominal - The income group of the country split into ‘High income’, ‘low income’, ‘Lower middle income’ and ‘Upper middle income’.
